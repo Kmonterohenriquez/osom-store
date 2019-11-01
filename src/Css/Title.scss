@@ -1,0 +1,40 @@
+.title-container{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: calc(100% - 270px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 4rem;
+
+    h1,h2{
+        
+        font-family: 'Old Standard TT', serif;
+        font-weight: 100;
+    }
+    h1{
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 4rem;
+        color: white;
+        text-transform: capitalize; 
+    }
+    button{
+        margin-top: 30px;
+        padding: 15px 35px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        border-style: none;
+        cursor: pointer;
+        transition: .5s transform;
+
+        &:hover{
+            transform:scale(1.05);
+        }
+    }
+}

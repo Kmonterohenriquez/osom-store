@@ -1,0 +1,56 @@
+/* Add Fonts */
+  // font-family: 'Stoke', serif; 
+  @import url('https://fonts.googleapis.com/css?family=Stoke&display=swap');
+  // font-family: 'Yanone Kaffeesatz', sans-serif;
+  @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+  // font-family: 'Rouge Script', cursive;
+  @import url('https://fonts.googleapis.com/css?family=Rouge+Script&display=swap');
+  // font-family: 'Old Standard TT', serif;
+  @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
+  // font-family: 'Arapey', serif;
+  @import url('https://fonts.googleapis.com/css?family=Arapey|Old+Standard+TT&display=swap');
+
+  // Colors
+  $grey: rgb(75, 75, 75);
+*{
+  margin:0;
+  padding:0;
+}
+.sm-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container{
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.showcase{
+  height: 100vh;
+  background: url(./Img/showcase-img2.jpg);
+  background-origin: center center;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  &::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:'';
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+    z-index: 2;
+    background: black;
+  }
+}
+
+@mixin title {
+  color: rgb(51, 51, 51);
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.8rem;
+};

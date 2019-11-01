@@ -1,0 +1,44 @@
+/* Add Fonts */
+@import url("https://fonts.googleapis.com/css?family=Stoke&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rouge+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Arapey|Old+Standard+TT&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sm-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.showcase {
+  height: 100vh;
+  background: url(./Img/showcase-img2.jpg);
+  background-origin: center center;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.showcase::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  opacity: .6;
+  z-index: 2;
+  background: black;
+}
+/*# sourceMappingURL=App.css.map */

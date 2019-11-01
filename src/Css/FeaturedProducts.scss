@@ -1,0 +1,77 @@
+.FeaturedProducts-container{
+    padding: 80px 0;
+}
+
+h1 {
+     @include title;
+    // color: rgb(51, 51, 51);
+    // font-family: 'Old Standard TT', serif;
+    // text-align: center;
+    // font-weight: 100;
+    // font-size: 1.8rem;
+}
+
+hr {
+    padding: 20px 0 0 0;
+    width: 50px;
+    margin: 0 auto 50px auto;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.FeaturedProducts-grid{
+    display: grid;
+    justify-items: space-around;
+    grid-gap: 30px;
+
+    // Declare Areas  
+    .boot {grid-area: boot;}
+    .backpack {grid-area: backpack;}
+    .coat {grid-area: coat}
+    .cap {grid-area:cap;}
+    .backpack2 {grid-area: backpack2;}
+    .shirt {grid-area:shirt;}
+
+    // Arrange Areas
+    grid-template-areas:
+    'boot boot backpack'
+    'boot boot coat'
+    'cap shirt shirt'
+    'backpack2 shirt shirt'
+
+     ;
+    &>div {
+        min-height: 240px;
+        
+        img {
+            background-origin: center center;
+            background-position: center center;
+            background-size: cover;
+            background: black;
+            max-height:200px;
+            width: 100%;
+            }
+        .price {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-family: 'Old Standard TT', serif;
+                text-transform: capitalize;
+                span {
+                    font-weight: 600;
+                    }
+            }
+        }
+    }
+    .smBox {
+        height: auto;
+        background:#e3e3e3;
+    }
+    .lgBox {
+        height: auto;
+        background:#e3e3e3;
+    }
+}
+

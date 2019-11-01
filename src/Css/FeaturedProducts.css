@@ -1,0 +1,104 @@
+.FeaturedProducts-container {
+  padding: 80px 0;
+}
+
+hr {
+  padding: 20px 0 0 0;
+  width: 50px;
+  margin: 0 auto 50px auto;
+  border-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.FeaturedProducts-grid {
+  display: -ms-grid;
+  display: grid;
+  justify-items: space-around;
+  grid-gap: 30px;
+      grid-template-areas: 'boot boot backpack' 'boot boot coat' 'cap shirt shirt' 'backpack2 shirt shirt';
+}
+
+.FeaturedProducts-grid .boot {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: boot;
+}
+
+.FeaturedProducts-grid .backpack {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: backpack;
+}
+
+.FeaturedProducts-grid .coat {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: coat;
+}
+
+.FeaturedProducts-grid .cap {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: cap;
+}
+
+.FeaturedProducts-grid .backpack2 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: backpack2;
+}
+
+.FeaturedProducts-grid .shirt {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: shirt;
+}
+
+.FeaturedProducts-grid > div {
+  min-height: 240px;
+}
+
+.FeaturedProducts-grid > div img {
+  background-origin: center center;
+  background-position: center center;
+  background-size: cover;
+  background: black;
+  max-height: 200px;
+  width: 100%;
+}
+
+.FeaturedProducts-grid > div .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.FeaturedProducts-grid > div .price p {
+  font-family: 'Old Standard TT', serif;
+  text-transform: capitalize;
+}
+
+.FeaturedProducts-grid > div .price p span {
+  font-weight: 600;
+}
+
+.FeaturedProducts-grid .smBox {
+  height: auto;
+  background: #e3e3e3;
+}
+
+.FeaturedProducts-grid .lgBox {
+  height: auto;
+  background: #e3e3e3;
+}
+/*# sourceMappingURL=FeaturedProducts.css.map */

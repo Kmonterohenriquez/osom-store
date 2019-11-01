@@ -1,0 +1,58 @@
+// @import "App";
+.FeatureCollection-container{
+    padding: 30px 0;
+}
+// h1{
+//     // color: grey;
+//     // font-family: 'Old Standard TT', serif;
+//     // text-align: center;
+//     // font-weight: 100;
+// }
+
+hr{
+    padding: 20px 0 0 0;
+    width: 50px;
+    margin: 0 auto 50px auto;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.FeatureCollection-grid{
+    display: grid;
+    justify-items: space-around;
+    grid-gap: 30px;
+    grid-template-areas:
+    'mens mens mens womens womens womens'
+    'bags bags outdoors outdoors home home'
+    ;
+    .mens{grid-area: mens;}
+    .womens{grid-area: womens;}
+    .bags{grid-area: bags;}
+    .outdoors{grid-area: outdoors}
+    .home{grid-area: home;}
+
+    .topBox{
+        background: #e3e3e3;
+        height: 310px;
+    }
+    .bottomBox{
+        background: #e3e3e3;
+        height: 280px;
+    }
+    .topBox, .bottomBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-family: 'Old Standard TT', serif;
+            font-style: italic;
+            color: white;
+            font-family: 'Arapey', serif;;
+            font-size: 1.7rem;
+        }
+    }
+}
+
+
+    
+
