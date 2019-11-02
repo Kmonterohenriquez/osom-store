@@ -1,5 +1,5 @@
 .FeaturedProducts-container {
-  padding: 80px 0;
+  padding: 90px 0;
 }
 
 .FeaturedProducts-container h1 {
@@ -12,8 +12,8 @@
 
 .FeaturedProducts-container hr {
   padding: 20px 0 0 0;
-  width: 50px;
-  margin: 0 auto 50px auto;
+  width: 40px;
+  margin: 0 auto 65px auto;
   border-style: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }

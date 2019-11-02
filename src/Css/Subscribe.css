@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Arapey|Old+Standard+TT&display=swap");
 .Subscribe-container {
   background: #F7F7F7;
-  padding: 70px 0;
+  padding: 60px 0;
 }
 
 .Subscribe-container h1 {
@@ -27,7 +27,7 @@
 
 .Subscribe-container hr {
   padding: 20px 0 0 0;
-  width: 50px;
+  width: 40px;
   margin: 0 auto 70px auto;
   border-style: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
@@ -57,7 +57,7 @@
   padding: 10px 12px;
   width: auto;
   max-width: 600px;
-  margin: o auto;
+  margin: 0 auto;
 }
 
 .Subscribe-container button {

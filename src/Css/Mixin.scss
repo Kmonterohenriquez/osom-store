@@ -6,10 +6,11 @@
     font-size: 2rem;
   };
  
-  @mixin hr($mb){
+
+  @mixin hr($mb, $mt){
     padding: 20px 0 0 0;
-      width: 50px;
-      margin: 0 auto $mb auto;
+      width: 40px;
+      margin: $mt auto $mb auto;
       border-style: none;
       border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   }

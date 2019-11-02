@@ -2,12 +2,12 @@
 @import './Colors';
 
  .FeaturedProducts-container {
-    padding: 80px 0;
+    padding: 90px 0;
     h1 {
         @include title;
     }
     hr {
-        @include hr(50px);
+        @include hr(65px, 0);
     }
 }
 

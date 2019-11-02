@@ -1,28 +1,24 @@
-import React, {Component} from 'react';
-import './App.css';
-import Navbar from './Components/Navbar';
-import Title from './Components/Title';
-import Message from './Components/Message';
-import FeatureCollection from './Components/FeatureCollection';
-import FeaturedProducts from './Components/FeaturedProducts';
-import Subscribe from './Components/Subscribe';
-import Footer from './Components/Footer';
+import React, { Component} from 'react';
+import { BrowserRouter as Router, Route  } from "react-router-dom";
+import Home from './Pages/Home';
+import Men from  './Pages/Men';
+import Women from './Pages/Women';
+import Bag from './Pages/Bag';
+import Indoor from './Pages/Indoor';
 
-class App extends Component  {
-  render(){   
-    return (
-        <div className="App">
-          <div className='showcase'>
-            <Navbar />
-            <Title />
-          </div>
-            <Message />
-            <FeatureCollection />
-            <FeaturedProducts />
-            <Subscribe />
-            <Footer />
-        </div>
-      )
+class App extends Component {
+    render(){
+        return(
+            <div>
+                <Router>
+                    <Route exact path='/' component={ Home } />
+                    <Route exact path='/mens' component={ Men } />
+                    <Route exact path='/women' component={ Women }/>
+                    <Route exact path='/bag' component={ Bag }/>
+                    <Route exact path='/indoor' component={ Indoor }/>
+                </Router>
+            </div>
+        )
     }
 }
 

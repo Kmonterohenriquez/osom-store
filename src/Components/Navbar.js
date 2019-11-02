@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../Css/Navbar.css';
 import logo from '../Img/logo.png';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
     render(){
@@ -9,13 +10,13 @@ class Navbar extends Component {
                 <a className='navbar-logo'><img src={logo}/></a>
                 <nav>
                     <ul>
-                        <li className='navbar-links'><a href='/mens'>Mens</a></li>
-                        <li className='navbar-links'><a href='/women'>womens</a></li>
-                        <li className='navbar-links'><a href='/bags'>Bags</a></li>
-                        <li className='navbar-links'><a href='/home'>Home</a></li>
-                        <li className='navbar-links'><a href='/home'>Outdoor</a></li>
-                        <li><a href='/search'><i className="fas fa-search"></i></a></li>
-                        <li><a href=''><i className="fas fa-shopping-cart"></i></a></li>
+                        <li className='navbar-links'><Link to='/mens'>Mens</Link></li>
+                        <li className='navbar-links'><Link to='/women'>womens</Link></li>
+                        <li className='navbar-links'><Link to='/bags'>Bags</Link></li>
+                        <li className='navbar-links'><Link to='/home'>Home</Link></li>
+                        <li className='navbar-links'><Link to='/outdoor'>Outdoor</Link></li>
+                        <li><Link to='/search'><i className="fas fa-search"></i></Link></li>
+                        <li><Link to=''><i className="fas fa-shopping-cart"></i></Link></li>
                     </ul>    
                 </nav>
             </div>

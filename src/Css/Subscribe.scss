@@ -4,7 +4,7 @@
 
 .Subscribe-container {
     background: $bgImg;
-    padding: 70px 0;
+    padding: 60px 0;
     h1 { @include title; }
     p {
         margin-top: 20px;
@@ -14,7 +14,7 @@
         font-family: 'Old Standard TT', serif;
 
     }
-    hr { @include hr(70px); }
+    hr { @include hr(70px, 0); }
     input[type=text]{ 
         border: none; 
         outline: none; 
@@ -33,7 +33,7 @@
         padding: 10px 12px;
         width: auto;
         max-width: 600px;
-        margin:o auto;
+        margin: 0 auto;
         
     }
     button{
