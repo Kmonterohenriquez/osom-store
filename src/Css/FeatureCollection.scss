@@ -1,13 +1,15 @@
-// @import "App";
+@import './Mixin';
+@import './Colors';
 .FeatureCollection-container{
     padding: 30px 0;
+    h1 {
+        @include title;
+    }
+    hr {
+        @include hr(50px);
+    }
 }
-// h1{
-//     // color: grey;
-//     // font-family: 'Old Standard TT', serif;
-//     // text-align: center;
-//     // font-weight: 100;
-// }
+
 
 hr{
     padding: 20px 0 0 0;
@@ -31,12 +33,13 @@ hr{
     .outdoors{grid-area: outdoors}
     .home{grid-area: home;}
 
-    .topBox{
-        background: #e3e3e3;
+    .topBox, .bottomBox{
+        background: $bgImg;
+    }
+    .topBox {
         height: 310px;
     }
-    .bottomBox{
-        background: #e3e3e3;
+    .bottomBox {
         height: 280px;
     }
     .topBox, .bottomBox{

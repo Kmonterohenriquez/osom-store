@@ -6,6 +6,7 @@ import Message from './Components/Message';
 import FeatureCollection from './Components/FeatureCollection';
 import FeaturedProducts from './Components/FeaturedProducts';
 import Subscribe from './Components/Subscribe';
+import Footer from './Components/Footer';
 
 class App extends Component  {
   render(){   
@@ -19,6 +20,7 @@ class App extends Component  {
             <FeatureCollection />
             <FeaturedProducts />
             <Subscribe />
+            <Footer />
         </div>
       )
     }

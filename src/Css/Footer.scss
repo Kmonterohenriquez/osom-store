@@ -1,0 +1,13 @@
+@import 'Colors';
+
+.Footer-container {
+    ul{
+        li{
+            
+            a{
+                color: $greyFont;
+                text-decoration: none;
+            }
+        }
+    }
+}

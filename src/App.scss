@@ -10,8 +10,6 @@
   // font-family: 'Arapey', serif;
   @import url('https://fonts.googleapis.com/css?family=Arapey|Old+Standard+TT&display=swap');
 
-  // Colors
-  $grey: rgb(75, 75, 75);
 *{
   margin:0;
   padding:0;
@@ -47,10 +45,3 @@
   }
 }
 
-@mixin title {
-  color: rgb(51, 51, 51);
-  font-family: 'Old Standard TT', serif;
-  text-align: center;
-  font-weight: 100;
-  font-size: 1.8rem;
-};

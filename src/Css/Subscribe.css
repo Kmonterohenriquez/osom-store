@@ -1,4 +1,81 @@
+/* Add Fonts */
+@import url("https://fonts.googleapis.com/css?family=Stoke&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rouge+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Arapey|Old+Standard+TT&display=swap");
 .Subscribe-container {
+  background: #F7F7F7;
   padding: 70px 0;
+}
+
+.Subscribe-container h1 {
+  color: #333333;
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.Subscribe-container p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #353535;
+  font-family: 'Old Standard TT', serif;
+}
+
+.Subscribe-container hr {
+  padding: 20px 0 0 0;
+  width: 50px;
+  margin: 0 auto 70px auto;
+  border-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.Subscribe-container input[type=text] {
+  border: none;
+  outline: none;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.2rem;
+  padding: 0 5px;
+  width: 470px;
+  font-style: italic;
+}
+
+.Subscribe-container .whBg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  padding: 10px 12px;
+  width: auto;
+  max-width: 600px;
+  margin: o auto;
+}
+
+.Subscribe-container button {
+  margin-left: 5px;
+  cursor: pointer;
+  outline: none;
+  padding: 15px 25px;
+  border-style: none;
+  background: #252626;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: .8em;
+  -webkit-transition: background .5s ease-in-out;
+  transition: background .5s ease-in-out;
+}
+
+.Subscribe-container button:hover {
+  background: #333333;
 }
 /*# sourceMappingURL=Subscribe.css.map */

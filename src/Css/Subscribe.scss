@@ -1,3 +1,56 @@
-.Subscribe-container{
+@import './Mixin';
+@import './Colors';
+@import './Fonts';
+
+.Subscribe-container {
+    background: $bgImg;
     padding: 70px 0;
+    h1 { @include title; }
+    p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.1rem;
+        color: $greyFont;
+        font-family: 'Old Standard TT', serif;
+
+    }
+    hr { @include hr(70px); }
+    input[type=text]{ 
+        border: none; 
+        outline: none; 
+        // font-family: 'Arapey', serif;
+        font-family: 'Old Standard TT', serif;
+        font-size: 1.2rem;
+        padding:0 5px;
+        width: 470px;
+        font-style: italic;
+    }
+    .whBg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:white;
+        padding: 10px 12px;
+        width: auto;
+        max-width: 600px;
+        margin:o auto;
+        
+    }
+    button{
+        margin-left: 5px;
+        cursor: pointer;
+        outline: none;
+        padding: 15px 25px;
+        border-style: none;
+        background: #252626;
+        color: white;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: .8em;
+        transition: background .5s ease-in-out;
+       
+        &:hover {
+            background: lighten( black, 20%);
+        }
+    }
 }

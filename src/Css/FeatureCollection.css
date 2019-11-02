@@ -2,6 +2,22 @@
   padding: 30px 0;
 }
 
+.FeatureCollection-container h1 {
+  color: #333333;
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.FeatureCollection-container hr {
+  padding: 20px 0 0 0;
+  width: 50px;
+  margin: 0 auto 50px auto;
+  border-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
 hr {
   padding: 20px 0 0 0;
   width: 50px;
@@ -53,13 +69,15 @@ hr {
   grid-area: home;
 }
 
+.FeatureCollection-grid .topBox, .FeatureCollection-grid .bottomBox {
+  background: #F7F7F7;
+}
+
 .FeatureCollection-grid .topBox {
-  background: #e3e3e3;
   height: 310px;
 }
 
 .FeatureCollection-grid .bottomBox {
-  background: #e3e3e3;
   height: 280px;
 }
 

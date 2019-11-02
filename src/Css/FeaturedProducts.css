@@ -2,7 +2,15 @@
   padding: 80px 0;
 }
 
-hr {
+.FeaturedProducts-container h1 {
+  color: #333333;
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.FeaturedProducts-container hr {
   padding: 20px 0 0 0;
   width: 50px;
   margin: 0 auto 50px auto;
@@ -15,7 +23,7 @@ hr {
   display: grid;
   justify-items: space-around;
   grid-gap: 30px;
-      grid-template-areas: 'boot boot backpack' 'boot boot coat' 'cap shirt shirt' 'backpack2 shirt shirt';
+      grid-template-areas: 'boot boot backpack'  'boot boot coat'  'cap shirt shirt'  'backpack2 shirt shirt';
 }
 
 .FeaturedProducts-grid .boot {
@@ -92,13 +100,15 @@ hr {
   font-weight: 600;
 }
 
+.FeaturedProducts-grid .smBox, .FeaturedProducts-grid .lgBox {
+  background: #F7F7F7;
+}
+
 .FeaturedProducts-grid .smBox {
   height: auto;
-  background: #e3e3e3;
 }
 
 .FeaturedProducts-grid .lgBox {
   height: auto;
-  background: #e3e3e3;
 }
 /*# sourceMappingURL=FeaturedProducts.css.map */
