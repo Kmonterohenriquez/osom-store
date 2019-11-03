@@ -37,4 +37,15 @@
   width: 30px;
   margin: 0 auto;
 }
+
+.myRights {
+  text-align: center;
+  color: #353535;
+  padding: 30px 0 10px 0;
+}
+
+.myRights a {
+  color: #353535;
+  text-decoration: none;
+}
 /*# sourceMappingURL=Footer.css.map */

@@ -16,7 +16,7 @@ class FeaturedProducts extends Component{
         return(
 
             <div className='FeaturedProducts-container sm-container'>
-                <h1>Featured Products</h1>
+                <h1>{ this.props.title }</h1>
                 <hr />
                 <div className='FeaturedProducts-grid'>
                     <div className='lgBox boot'>

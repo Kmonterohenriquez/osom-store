@@ -17,7 +17,7 @@ class Home extends Component  {
           </div>
             <Message />
             <FeatureCollection />
-            <FeaturedProducts />
+            <FeaturedProducts title='Featured Products'/>
             <Subscribe />
             <Footer />
         </div>

@@ -7,7 +7,7 @@ class Navbar extends Component {
     render(){
         return(
             <div className='navbar container'>
-                <a className='navbar-logo'><img src={logo}/></a>
+                <Link className='navbar-logo' to='/'><img src={logo}/></Link>
                 <nav>
                     <ul>
                         <li className='navbar-links'><Link to='/mens'>Mens</Link></li>

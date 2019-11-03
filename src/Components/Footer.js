@@ -20,6 +20,7 @@ function Footer(){
                     </ul>
                 </div>    
             </div>
+            <p className='myRights'>© 2019 <a href='https://kevinmontero.netlify.com/'>Kevin Montero</a></p>
         </div>
     )
 }
