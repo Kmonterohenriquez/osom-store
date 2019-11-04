@@ -1,0 +1,10 @@
+@import 'Mixin';
+
+.ItemSectionTitle-container{
+    p {
+        @include title;
+    }
+    hr {
+        @include hr(0px, 10px);
+    }
+}

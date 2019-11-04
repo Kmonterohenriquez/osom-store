@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,aAAa;EAC5B,QAAQ,EAAE,IAAI;EACd,mBAAmB,EACnB,oCAEA;CACH",
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,aAAa;EAC5B,QAAQ,EAAE,MAAM;EAChB,mBAAmB,EACnB,oCAEA;CACH",
     "sources": [
         "ItemSection2.scss"
     ],

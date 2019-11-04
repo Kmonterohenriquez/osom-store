@@ -3,10 +3,11 @@ import Navbar from '../Components/Navbar';
 import Title from '../Components/Title';
 import Message from '../Components/Message';
 import FeatureCollection from '../Components/FeatureCollection';
-import Subscribe from '../Components/Subscribe';
-import Footer from '../Components/Footer';
+import ItemSectionTitle from '../Components/ItemSectionTitle';
 import ItemSection1 from '../Components/ItemSection1';
 import ItemSection2 from '../Components/ItemSection2';
+import Subscribe from '../Components/Subscribe';
+import Footer from '../Components/Footer';
 
 
 class Home extends Component  {
@@ -15,14 +16,23 @@ class Home extends Component  {
         <div className="Home">
           <div className='showcase'>
             <Navbar />
-            <Title />
+            <Title 
+                  title='Kevin Montero' 
+                  subTitle='Fresh Style'
+            />
           </div>
-            <Message />
-            <FeatureCollection />
-            <div className='Section-container'>
-              <ItemSection1 />
-              <ItemSection2 />
-            </div>
+          {/* Message About Our Store */}
+          <Message />
+
+          {/* Womens Section */}
+          <FeatureCollection />
+
+          {/* Mens Section */}
+          <div className='Section-container'>
+            <ItemSectionTitle title='Featured Products' />
+            <ItemSection1 />
+            <ItemSection2 />
+          </div>
             <Subscribe />
             <Footer />
         </div>

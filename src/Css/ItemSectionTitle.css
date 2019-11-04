@@ -1,0 +1,16 @@
+.ItemSectionTitle-container p {
+  color: #333333;
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.ItemSectionTitle-container hr {
+  padding: 20px 0 0 0;
+  width: 40px;
+  margin: 10px auto 0px auto;
+  border-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=ItemSectionTitle.css.map */
