@@ -17,7 +17,7 @@ class Home extends Component  {
           <div className='showcase'>
             <Navbar />
             <Title 
-                  title='Be Osom' 
+                  title='Spring Style' 
                   subTitle='Fresh Style'
             />
           </div>
