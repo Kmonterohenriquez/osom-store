@@ -8,9 +8,15 @@
  
 
   @mixin hr($mb, $mt){
-    padding: 20px 0 0 0;
+    // padding: px 0 0 0;
       width: 40px;
       margin: $mt auto $mb auto;
       border-style: none;
       border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  @mixin container($max-width){
+    width: 90%;
+    max-width: $max-width;
+    margin: 0 auto;
   }

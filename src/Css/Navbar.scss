@@ -2,7 +2,7 @@
 
 // Navbar
 .navbar{
-    height: 50px;
+    height: 15px;
     padding:40px 0;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,6 @@ nav {
             
             a{
                 text-decoration: none;
-                color: white;
                 text-transform: uppercase;
                 font-size: 1.1rem;
                 font-weight: bolder;
@@ -49,4 +48,11 @@ nav {
             }
         }
     }
+}
+
+.black a{
+    color: black;
+}
+.white a{
+    color: white;
 }

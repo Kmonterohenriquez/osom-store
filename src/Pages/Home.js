@@ -15,7 +15,7 @@ class Home extends Component  {
     return (
         <div className="Home">
           <div className='showcase'>
-            <Navbar />
+            <Navbar color='white'/>
             <Title 
                   title='Spring Style' 
                   subTitle='Fresh Style'

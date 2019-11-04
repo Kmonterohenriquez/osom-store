@@ -12,9 +12,16 @@
   line-height: 2.2rem;
 }
 
-.message-container p span a {
+.message-container p .ourStory {
   text-decoration: none;
   font-weight: 600;
   color: brown;
+  text-decoration: underline;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+
+.message-container p .ourStory:hover {
+  color: #d14a4a;
 }
 /*# sourceMappingURL=Message.css.map */

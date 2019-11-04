@@ -12,7 +12,7 @@ function Subscribe (){
                 <hr />
                 <div className='whBg'>
                     <input type='text' placeholder='Your email' />
-                    <button ><a src='#'>Subscribe</a></button>
+                    <button >Subscribe</button>
                 </div>
             </div>    
         </div>

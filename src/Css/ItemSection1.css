@@ -2,7 +2,7 @@
   display: -ms-grid;
   display: grid;
   justify-items: space-between;
-  grid-gap: 0 10px;
+  grid-gap: 0 20px;
       grid-template-areas: 'shirt shirt cap' 'shirt shirt bp2';
 }
 /*# sourceMappingURL=ItemSection1.css.map */

@@ -1,32 +1,17 @@
-/* Add Fonts */
-  // font-family: 'Stoke', serif; 
-  @import url('https://fonts.googleapis.com/css?family=Stoke&display=swap');
-  // font-family: 'Yanone Kaffeesatz', sans-serif;
-  @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
-  // font-family: 'Rouge Script', cursive;
-  @import url('https://fonts.googleapis.com/css?family=Rouge+Script&display=swap');
-  // font-family: 'Old Standard TT', serif;
-  @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
-  // font-family: 'Arapey', serif;
-  @import url('https://fonts.googleapis.com/css?family=Arapey|Old+Standard+TT&display=swap');
+@import './Css/Mixin';
+
 
 *{
   margin:0;
   padding:0;
 }
-.Section-container{
-  padding: 130px 0;
-}
-.sm-container {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-.container{
-  width: 90%;
-  max-width: 1400px;
-  margin: 0 auto;
-}
+
+.Section-container{ padding: 130px 0; }
+
+// Containers
+.nav-container{ @include container(1100px); }
+.sm-container { @include container(900px); }
+.container{ @include container(1400px); }
 
 .showcase{
   height: 100vh;

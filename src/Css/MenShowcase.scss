@@ -1,0 +1,25 @@
+.MenShowCase-container{
+    position: relative;
+
+    img{
+        object-fit: cover;
+        height: auto;
+        max-height: calc(100vh - 90px);
+        width: 100%;
+        // position: relative;
+        // z-index: -1;
+
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 4px);
+        opacity: 0.9;
+        // background: radial-gradient(transparent , black );
+        background: radial-gradient(circle, transparent 0%, rgba(0,0,0,1) 80%);
+    }
+    margin-bottom: 80px;
+}

@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import '../Css/Navbar.css';
-import logo from '../Img/logo.png';
+import logoWhite from '../Img/logoWhite.png';
+import logoBlack from '../Img/logoBlack.png';
 import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
     render(){
+        const{ color }=this.props;
         return(
-            <div className='navbar container'>
-                <Link className='navbar-logo' to='/'><img src={logo}/></Link>
+            <div className={`navbar nav-container ${color}`}>
+                <Link className='navbar-logo' to='/'><img src={color==='black'? logoBlack:logoWhite} alt='Logo'/></Link>
                 <nav>
                     <ul>
                         <li className='navbar-links'><Link to='/mens'>Mens</Link></li>

@@ -30,8 +30,9 @@ hr {
   display: -ms-grid;
   display: grid;
   justify-items: space-around;
-  grid-gap: 30px;
-      grid-template-areas: 'mens mens mens womens womens womens' 'bags bags outdoors outdoors home home';
+  grid-gap: 20px;
+      grid-template-areas: 'mens mens mens womens womens womens'
+ 'bags bags outdoors outdoors home home';
 }
 
 .FeatureCollection-grid .mens {

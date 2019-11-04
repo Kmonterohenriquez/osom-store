@@ -8,12 +8,16 @@
         font-size: 1.5rem;
         letter-spacing: 1px;
         line-height: 2.2rem;
-        span{
-            a{
-                text-decoration: none;
-                font-weight:600;
-                color:brown;
-            }
+        
+        .ourStory {
+            text-decoration: none;
+            font-weight:600;
+            color:brown;
+            text-decoration: underline; 
+            transition: color .4s; 
+            &:hover{
+                color: lighten(brown, 15%);
+            }        
         }
     }
 }

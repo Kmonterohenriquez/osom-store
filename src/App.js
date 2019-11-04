@@ -4,7 +4,8 @@ import Home from './Pages/Home';
 import Men from  './Pages/Men';
 import Women from './Pages/Women';
 import Bag from './Pages/Bag';
-import Indoor from './Pages/Indoor';
+import Outdoor from './Pages/Outdoor';
+import HomeItems from './Pages/HomeItems';
 
 class App extends Component {
     render(){
@@ -14,8 +15,9 @@ class App extends Component {
                     <Route exact path='/' component={ Home } />
                     <Route exact path='/mens' component={ Men } />
                     <Route exact path='/women' component={ Women }/>
-                    <Route exact path='/bag' component={ Bag }/>
-                    <Route exact path='/indoor' component={ Indoor }/>
+                    <Route exact path='/bags' component={ Bag }/>
+                    <Route exact path='/Home' component={ HomeItems }/>
+                    <Route exact path='/outdoor' component={ Outdoor }/>
                 </Router>
             </div>
         )

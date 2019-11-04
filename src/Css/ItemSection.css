@@ -9,7 +9,7 @@
   display: -ms-grid;
   display: grid;
   justify-items: space-between;
-  grid-gap: 0 10px;
+  grid-gap: 0 20px;
       grid-template-areas: 'shirt shirt cap' 'shirt shirt bp2';
 }
 
@@ -17,7 +17,7 @@
   display: -ms-grid;
   display: grid;
   justify-items: space-between;
-  grid-gap: 0 10px;
+  grid-gap: 0 20px;
       grid-template-areas: 'cap shirt shirt' 'bp2 shirt shirt';
 }
 
@@ -57,15 +57,15 @@
 }
 
 .lgHolder {
-  height: 100%;
+  height: calc(100% - 20px);
 }
 
 .smBox {
-  height: 220px;
+  height: 240px;
 }
 
 .price {
-  height: 50px;
+  height: 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,0 +1,24 @@
+.MenShowCase-container {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.MenShowCase-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
+  max-height: calc(100vh - 90px);
+  width: 100%;
+}
+
+.MenShowCase-container::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 4px);
+  opacity: 0.9;
+  background: radial-gradient(circle, transparent 0%, black 80%);
+}
+/*# sourceMappingURL=MenShowcase.css.map */

@@ -5,6 +5,6 @@
         @include title;
     }
     hr {
-        @include hr(0px, 10px);
+        @include hr(40px, 0px);
     }
 }
