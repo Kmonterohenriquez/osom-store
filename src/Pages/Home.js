@@ -3,9 +3,11 @@ import Navbar from '../Components/Navbar';
 import Title from '../Components/Title';
 import Message from '../Components/Message';
 import FeatureCollection from '../Components/FeatureCollection';
-import FeaturedProducts from '../Components/FeaturedProducts';
 import Subscribe from '../Components/Subscribe';
 import Footer from '../Components/Footer';
+import ItemSection1 from '../Components/ItemSection1';
+import ItemSection2 from '../Components/ItemSection2';
+
 
 class Home extends Component  {
   render(){   
@@ -17,7 +19,10 @@ class Home extends Component  {
           </div>
             <Message />
             <FeatureCollection />
-            <FeaturedProducts title='Featured Products'/>
+            <div className='Section-container'>
+              <ItemSection1 />
+              <ItemSection2 />
+            </div>
             <Subscribe />
             <Footer />
         </div>

@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+.Section-container {
+  padding: 130px 0;
+}
+
 .sm-container {
   width: 90%;
   max-width: 900px;

@@ -1,37 +1,44 @@
 import React, { Component} from 'react';
-import '../Css/ItemSection.css'
+import '../Css/ItemSection.css';
+// import '../Css/ItemSection1.css';
+
 
 class ItemSection1 extends Component{
     static defaultProps={
-        bootPrice: 310,
-        backpackPrice: 128,
-        coatPrice: 188,
+        item1Name: 'Cap',
+        item2Name: 'backback2',
+        item3Name: 'shirt',
+        item1Price: 310,
+        item2Price: 128,
+        item3Price: 188,
     }
     
     render(){
-        const {bootPrice, backpackPrice, coatPrice } = this.props; 
+        const { item1Name, item2Name, item3Name, item1Price, item2Price, item3Price } = this.props; 
         return(
 
-            <div className='ItemSection1-container sm-container'>
-                <h1>{ this.props.title }</h1>
-                <hr />
+            <div className='ItemSection-container sm-container'>
                 <div className='ItemSection1-grid'>
-                    <div className='lgBox boot'>
-                        <img src='' alt=''/>
+                    <div className='smBox cap'>
+                        {/* <img src="http://lorempixel.com/200/200/" alt=''/> */}
+                        <div className='smHolder'></div>
                         <div className='price'>
-                            <p>boot - <span>${bootPrice}</span></p>
+                            <p>{ item1Name } - <span>${item1Price}</span></p>
                         </div>
                     </div>
-                    <div className='smBox backpack'>
-                        <img src='http://lorempixel.com/150/200/' alt=''/>
+                    <div className='smBox backback2'>
+                        <img src='' alt=''/>
+                        {/* <div className='price'> */}
+                        <div className='smHolder'></div>
                         <div className='price'>
-                            <p>backpack - <span>${backpackPrice}</span></p>
+                            <p>{ item2Name } - <span>${item2Price}</span></p>
                         </div>
                     </div>
-                    <div className='smBox coat'>
-                        <img src='' alt=''/>
+                    <div className='lgBox shirt'>
+                        {/* <img src='' alt=''/> */}
+                        <div className='lgHolder'></div>                        
                         <div className='price'>
-                            <p>Coat - <span>${coatPrice}</span></p>
+                            <p>{ item3Name } - <span>${item3Price}</span></p>
                         </div>
                     </div>
                 </div>

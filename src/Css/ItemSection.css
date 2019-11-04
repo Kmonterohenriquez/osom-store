@@ -1,0 +1,81 @@
+@import url(c:\Users\kevin\OneDrive\Escritorio\projects\osom-store\src\Css\Mixin.css);
+.ItemSection1-grid {
+  display: -ms-grid;
+  display: grid;
+  justify-items: space-between;
+  grid-gap: 20px;
+      grid-template-areas: 'shirt shirt cap' 'shirt shirt bp2';
+}
+
+.ItemSection2-grid {
+  display: -ms-grid;
+  display: grid;
+  justify-items: space-between;
+  grid-gap: 20px;
+      grid-template-areas: 'cap shirt shirt' 'bp2 shirt shirt';
+}
+
+.ItemSection-container {
+  padding: 60px 0;
+}
+
+.cap {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: cap;
+}
+
+.backpack2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: bp2;
+}
+
+.shirt {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: shirt;
+}
+
+.smHolder, .lgHolder {
+  background: #F7F7F7;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.smHolder, .lgHolder {
+  height: 200px;
+}
+
+.lgHolder {
+  height: 100%;
+}
+
+.price {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.smBox {
+  height: 220px;
+}
+
+.price {
+  height: 30px;
+}
+/*# sourceMappingURL=ItemSection.css.map */

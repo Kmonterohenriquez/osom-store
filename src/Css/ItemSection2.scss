@@ -1,0 +1,11 @@
+.ItemSection2-grid {
+    display: grid;
+    justify-items: space-between;
+    grid-gap: 20px;
+    grid-template-areas:
+    'cap shirt shirt'
+    'bp2 shirt shirt'
+    ;
+}
+
+

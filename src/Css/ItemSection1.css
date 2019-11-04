@@ -1,0 +1,8 @@
+.ItemSection1-grid {
+  display: -ms-grid;
+  display: grid;
+  justify-items: space-between;
+  grid-gap: 20px;
+      grid-template-areas: 'shirt shirt cap' 'shirt shirt bp2';
+}
+/*# sourceMappingURL=ItemSection1.css.map */

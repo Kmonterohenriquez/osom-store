@@ -1,36 +1,44 @@
 import React, { Component} from 'react';
-import '../Css/ItemSection2.css'
+import '../Css/ItemSection.css';
+import '../Css/ItemSection2.css';
 
-class ItemSection1 extends Component{
+
+class ItemSection2 extends Component{
     static defaultProps={
-        bootPrice: 310,
-        backpackPrice: 128,
-        coatPrice: 188,
+        item1Name: 'Cap',
+        item2Name: 'backback2',
+        item3Name: 'shirt',
+        item1Price: 310,
+        item2Price: 128,
+        item3Price: 188,
     }
     
     render(){
-        const {bootPrice, backpackPrice, coatPrice } = this.props; 
+        const { item1Name, item2Name, item3Name, item1Price, item2Price, item3Price } = this.props; 
         return(
 
             <div className='ItemSection-container sm-container'>
-                <h1>{ this.props.title }</h1>
-                <hr />
+                <div className='ItemSection2-grid'>
                     <div className='smBox cap'>
-                        <img src='' alt=''/>
+                        {/* <img src="http://lorempixel.com/200/200/" alt=''/> */}
+                        <div className='smHolder'></div>
                         <div className='price'>
-                            <p>Cap - <span>${capPrice}</span></p>
+                            <p>{ item1Name } - <span>${item1Price}</span></p>
                         </div>
                     </div>
                     <div className='smBox backback2'>
                         <img src='' alt=''/>
+                        {/* <div className='price'> */}
+                        <div className='smHolder'></div>
                         <div className='price'>
-                            <p>backback2 - <span>${backpackPrice2}</span></p>
+                            <p>{ item2Name } - <span>${item2Price}</span></p>
                         </div>
                     </div>
                     <div className='lgBox shirt'>
-                        <img src='' alt=''/>
+                        {/* <img src='' alt=''/> */}
+                        <div className='lgHolder'></div>                        
                         <div className='price'>
-                            <p>shirt - <span>${shirtPrice}</span></p>
+                            <p>{ item3Name } - <span>${item3Price}</span></p>
                         </div>
                     </div>
                 </div>
@@ -39,4 +47,4 @@ class ItemSection1 extends Component{
         )
     }
 }
-export default ItemSection1;
+export default ItemSection2;
