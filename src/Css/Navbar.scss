@@ -56,3 +56,36 @@ nav {
 .white a{
     color: white;
 }
+// Menu Button
+.menu-btn{
+    padding: 10px;
+    display: none;
+    height:30px;
+    width: 35px;
+    cursor: pointer;
+    
+    &:hover .menu-line{
+        &:nth-child(1){
+            transform: rotate(45deg) translate(18px, 0px);
+              
+        }
+        &:nth-child(2){
+            opacity: 0;
+        }
+        &:nth-child(3){
+            transform: rotate(-45deg) translate(19px, 0);
+        }
+    }
+
+    .menu-line {
+        transition: transform .5s ;
+        height: 4px;
+        background: white;
+        margin-bottom: 8px;
+        border-radius: 5px;
+    }
+}
+
+
+  
+@import './MediaQueries';

@@ -6,9 +6,14 @@ import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
     render(){
-        const{ color }=this.props;
+        const{ color }= this.props;
         return(
             <div className={`navbar nav-container ${color}`}>
+                <div className='menu-btn'>
+                    <div className='menu-line'></div>
+                    <div className='menu-line'></div>
+                    <div className='menu-line'></div>
+                </div>
                 <Link className='navbar-logo' to='/'><img src={color==='black'? logoBlack:logoWhite} alt='Logo'/></Link>
                 <nav>
                     <ul>
@@ -21,6 +26,7 @@ class Navbar extends Component {
                         <li><Link to=''><i className="fas fa-shopping-cart"></i></Link></li>
                     </ul>    
                 </nav>
+            
             </div>
         )
     }

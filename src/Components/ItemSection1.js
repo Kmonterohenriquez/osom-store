@@ -20,23 +20,29 @@ class ItemSection1 extends Component{
             <div className='ItemSection-container sm-container'>
                 <div className='ItemSection1-grid'>
                     <div className='smBox cap'>
-                        {/* <img src="http://lorempixel.com/200/200/" alt=''/> */}
-                        <div className='smHolder'></div>
+                        <div className='smHolder'>
+                        <img src="http://lorempixel.com/300/200/" alt=''/>
+
+                        </div>
                         <div className='price'>
                             <p>{ item1Name } - <span>${item1Price}</span></p>
                         </div>
                     </div>
                     <div className='smBox backback2'>
-                        <img src='' alt=''/>
+                    
+                        
                         {/* <div className='price'> */}
-                        <div className='smHolder'></div>
+                        <div className='smHolder'>
+                            <img src="http://lorempixel.com/300/300/" alt=''/>
+                        </div>
                         <div className='price'>
                             <p>{ item2Name } - <span>${item2Price}</span></p>
                         </div>
                     </div>
                     <div className='lgBox shirt'>
-                        {/* <img src='' alt=''/> */}
-                        <div className='lgHolder'></div>                        
+                        <div className='lgHolder'>
+                            <img src="http://lorempixel.com/600/600/" alt=''/>
+                        </div>                        
                         <div className='price'>
                             <p>{ item3Name } - <span>${item3Price}</span></p>
                         </div>

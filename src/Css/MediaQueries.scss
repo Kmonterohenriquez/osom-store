@@ -1,0 +1,10 @@
+@mixin NavbarMedia{
+    nav{
+        display: none;
+    }
+}
+@mixin TitleMedia{
+    h1{
+        color: red;
+    }
+}

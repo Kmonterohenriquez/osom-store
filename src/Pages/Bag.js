@@ -3,7 +3,6 @@ import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import ItemSectionTitle  from '../Components/ItemSectionTitle';
 import ItemSection1  from '../Components/ItemSection1';
-import ItemSection2  from '../Components/ItemSection2';
 
 
 class Bag extends Component {
