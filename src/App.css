@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.App-container {
+  overflow-y: hidden;
+}
+
 .Section-container {
   padding: 130px 0;
 }
@@ -22,6 +26,12 @@
 .container {
   width: 90%;
   max-width: 1400px;
+  margin: 0 auto;
+}
+
+.p-container {
+  width: 90%;
+  max-width: 700px;
   margin: 0 auto;
 }
 

@@ -1,5 +1,6 @@
 @import '../App.css';
 
+
 // Navbar
 .navbar{
     height: 15px;
@@ -32,15 +33,17 @@ nav {
         li{
             list-style: none;
             padding: 0 10px;
-            letter-spacing: 2.5px;
+            letter-spacing: 1.5px;
             
             
-            a{
+            a{  
+        
                 text-decoration: none;
                 text-transform: uppercase;
-                font-size: 1.1rem;
+                font-size: 0.9rem;
                 font-weight: bolder;
-                font-family: 'Yanone Kaffeesatz', sans-serif;
+                font-family: 'Montserrat', sans-serif;
+                
                 
             }
             i{
@@ -51,7 +54,7 @@ nav {
 }
 
 .black a{
-    color: black;
+    color: #393e46;
 }
 .white a{
     color: white;
@@ -84,8 +87,11 @@ nav {
         margin-bottom: 8px;
         border-radius: 5px;
     }
+    
 }
 
+@import './MediaQueries';
+
+@include NavBar;
 
   
-@import './MediaQueries';

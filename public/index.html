@@ -18,6 +18,19 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    
+
+
+    <!-- Add Salt.Js -->
+    <script type="text/javascript" src="path/to/salt.min.js"></script> 
+    <script src="./app.js"></script>
+    <script src="./node_modules/sal.js/dist/sal.js"></script>
+    <script>
+    // Execute  Sal.js
+    //     sal();
+        sal({
+            threshold: 0.5,
+            once: false,
+        });
+    </script>
   </body>
 </html>

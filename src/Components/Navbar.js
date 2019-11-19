@@ -23,10 +23,9 @@ class Navbar extends Component {
                         <li className='navbar-links'><Link to='/home'>Home</Link></li>
                         <li className='navbar-links'><Link to='/outdoor'>Outdoor</Link></li>
                         <li><Link to='/search'><i className="fas fa-search"></i></Link></li>
-                        <li><Link to=''><i className="fas fa-shopping-cart"></i></Link></li>
+                        <li><Link to=''><i className=" fas fa-shopping-cart"></i></Link></li>
                     </ul>    
                 </nav>
-            
             </div>
         )
     }

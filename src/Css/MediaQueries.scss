@@ -1,7 +1,17 @@
-@mixin NavbarMedia{
-    nav{
-        display: none;
+@mixin NavBar{
+    @media all and (max-width: 800px){
+        nav{
+            display: none;
+        }
+        .menu-btn{
+            display: block;
+            .menu-line {
+                background: green;
+            }
+        }
+        
     }
+    
 }
 @mixin TitleMedia{
     h1{
