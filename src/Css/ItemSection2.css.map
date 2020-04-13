@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,aAAa;EAC5B,QAAQ,EAAE,MAAM;EAChB,mBAAmB,EACnB,oCAEA;CACH",
-    "sources": [
-        "ItemSection2.scss"
-    ],
-    "names": [],
-    "file": "ItemSection2.css"
-}
