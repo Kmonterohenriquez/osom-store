@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import '../Css/ItemSection.css';
+import '../Css/ItemSection.scss';
 import '../Css/ItemSection2.css';
 
 
