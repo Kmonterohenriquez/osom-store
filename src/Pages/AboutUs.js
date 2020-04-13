@@ -1,6 +1,6 @@
 import React from 'react';
 import ItemSectionTitle from '../Components/ItemSectionTitle';
-import '../Css/AboutUs.css';
+import '../Css/AboutUs.sass';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 
