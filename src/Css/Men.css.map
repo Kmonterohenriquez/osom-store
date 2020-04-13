@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CAEd",
-    "sources": [
-        "Men.scss"
-    ],
-    "names": [],
-    "file": "Men.css"
-}
