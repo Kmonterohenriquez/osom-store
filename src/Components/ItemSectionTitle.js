@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../Css/ItemSectionTitle.css';
+import '../Css/ItemSectionTitle.scss';
 
 class ItemSectionTitle extends Component{
     render(){
