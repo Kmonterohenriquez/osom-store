@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import '../Css/ItemSection.scss';
-import '../Css/ItemSection1.css';
+import '../Css/ItemSection1.scss';
 
 
 class ItemSection1 extends Component{
