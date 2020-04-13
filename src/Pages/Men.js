@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Css/Men.css';
+import '../Css/Men.scss';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import ItemSectionTitle  from '../Components/ItemSectionTitle';
