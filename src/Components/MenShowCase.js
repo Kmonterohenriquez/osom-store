@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Css/MenShowcase.css';
+import '../Css/MenShowcase.scss';
 import manPic from '../Img/men-showcase.jpg';
 
 
